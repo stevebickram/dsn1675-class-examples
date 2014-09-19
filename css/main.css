@@ -1,0 +1,16 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+<!-- ^ These codes allow for the device to scale according to all the different browsers -->
+
+html {
+    box-sizing: border box;
+}
+<!-- makes the box easier to manage -->
+*, *:before, *;after {
+    box-sizing: inherit;
+}
+<!-- sets our border padding to accomodate for width, whatever the width may be-->
+
